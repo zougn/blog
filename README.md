@@ -34,7 +34,7 @@
 
 **Gitee地址：** [https://gitee.com/zougn/blog](https://gitee.com/zougn/blog)
 
-**在线接口文档地址：** [https://www.zougn.com/api/doc.html](https://www.zougn.com/api/doc.html)
+**在线接口文档地址：** [https://blog.zougn.com/api/doc.html](https://blog.zougn.com/api/doc.html)
 
 您的star是我坚持的动力，感谢大家的支持，欢迎提交pr共同改进项目。
 
