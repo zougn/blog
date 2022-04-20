@@ -1,8 +1,8 @@
 ## 博客介绍
 
 <p align=center>
-  <a href="https://www.talkxj.com">
-    <img src="https://static.talkxj.com/articles/4a8ca439f6a4cce8316f9a885c632cee.jpg" alt="风丶宇的个人博客" style="border-radius: 50%">
+  <a href="https://blog.zougn.com">
+    <img src="http://zougn.oss-cn-shanghai.aliyuncs.com/articles/4a8ca439f6a4cce8316f9a885c632cee.jpg" alt="zougn的个人博客" style="border-radius: 50%">
   </a>
 </p>
 
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-   <a target="_blank" href="https://github.com/X1192176811/blog">
+   <a target="_blank" href="https://github.com/zougn/blog">
       <img src="https://img.shields.io/hexpm/l/plug.svg"/>
       <img src="https://img.shields.io/badge/JDK-1.8+-green.svg"/>
       <img src="https://img.shields.io/badge/springboot-2.4.2.RELEASE-green"/>
@@ -24,21 +24,17 @@
    </a>
 </p>
 
-[在线地址](#在线地址) | [目录结构](#目录结构) | [项目特点](#项目特点) | [技术介绍](#技术介绍) | [运行环境](#运行环境) | [开发环境](#开发环境) | [项目截图](#项目截图) | [快速开始](#快速开始) | [注意事项](#注意事项) | [项目总结](#项目总结) | [交流群](#交流群)
+[在线地址](#在线地址) | [目录结构](#目录结构) | [项目特点](#项目特点) | [技术介绍](#技术介绍) | [运行环境](#运行环境) | [开发环境](#开发环境) | [项目截图](#项目截图) | [快速开始](#快速开始) | [注意事项](#注意事项) | [项目总结](#项目总结) 
 
 ## 在线地址
 
-**项目链接：** [www.talkxj.com](https://www.talkxj.com)
+**项目链接：** [blog.zougn.com](https://blog.zougn.com)
 
-**后台链接：** [admin.talkxj.com](https://admin.talkxj.com)
+**Github地址：** [https://github.com/zougn/blog](https://github.com/zougn/blog)
 
-测试账号：test@qq.com，密码：1234567，可登入后台查看。
+**Gitee地址：** [https://gitee.com/zougn/blog](https://gitee.com/zougn/blog)
 
-**Github地址：** [https://github.com/X1192176811/blog](https://github.com/X1192176811/blog)
-
-**Gitee地址：** [https://gitee.com/feng_meiyu/blog](https://gitee.com/feng_meiyu/blog)
-
-**在线接口文档地址：** [https://www.talkxj.com/api/doc.html](https://www.talkxj.com/api/doc.html)
+**在线接口文档地址：** [https://www.zougn.com/api/doc.html](https://www.zougn.com/api/doc.html)
 
 您的star是我坚持的动力，感谢大家的支持，欢迎提交pr共同改进项目。
 
@@ -139,27 +135,27 @@ blog-springboot
 
 ## 项目截图
 
-![QQ截图20210320171133.png](https://static.talkxj.com/articles/1616231666692.png)
+![QQ截图20210320171133.png](http://zougn.oss-cn-shanghai.aliyuncs.com/articles/ddff6973cbf8d3d857b93b37f67b8710.jpg)
 
-![QQ截图20210320235519 1.jpg](https://static.talkxj.com/articles/1616255938601.jpg)
+![QQ截图20210320235519 1.jpg](http://zougn.oss-cn-shanghai.aliyuncs.com/articles/bbf5fefd26d9a01a04600038e67b5f5c.jpg)
 
-![QQ截图20210320171338.png](https://static.talkxj.com/articles/1616231705373.png)
+![QQ截图20210320171338.png](http://zougn.oss-cn-shanghai.aliyuncs.com/articles/f3bade1d84a1d019de5117a47dc8ba73.png)
 
-![QQ截图20210320171401.png](https://static.talkxj.com/articles/1616231714148.png)
+![QQ截图20210320171401.png](http://zougn.oss-cn-shanghai.aliyuncs.com/articles/f18c142a5da0069888d4fb6e0e92d6fe.png)
 
 ## 快速开始
 
 ### 项目环境安装
 
-详见文章[Docker安装运行环境](https://www.talkxj.com/articles/2)
+详见文章[Docker安装运行环境](https://blog.zougn.com/articles/2)
 
 ### 项目配置
 
-详见文章[项目配置教程](https://www.talkxj.com/articles/3)
+详见文章[项目配置教程](https://blog.zougn.com/articles/3)
 
 ### Docker部署项目
 
-详见文章[项目部署教程](https://www.talkxj.com/articles/13)
+详见文章[项目部署教程](https://blog.zougn.com/articles/4)
 
 ## 注意事项
 
@@ -169,11 +165,7 @@ blog-springboot
 
 ## 项目总结
 
-博客作为新手入门项目是十分不错的，项目所用的技术栈覆盖的也比较广，适合初学者学习。主要难点在于权限管理、第三方登录、websocket这块。做的不好的地方请大家见谅，有问题的或者有好的建议可以私聊联系我。
-
-## 交流群
-
-![博客技术交流群聊二维码.png](https://static.talkxj.com/articles/1594437310326.png)
+博客作为新手入门项目是十分不错的，项目所用的技术栈覆盖的也比较广，适合初学者学习。主要难点在于权限管理、第三方登录、websocket这块。
 
 
 

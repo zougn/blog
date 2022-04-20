@@ -41,7 +41,7 @@ CREATE TABLE `tb_article`  (
 -- ----------------------------
 -- Records of tb_article
 -- ----------------------------
-INSERT INTO `tb_article` VALUES (54, 1, 187, 'https://static.talkxj.com/articles/3dffb2fcbd541886616ab54c92570de3.jpg', '测试文章', '恭喜你成功运行博客，开启你的文章之旅吧。', 1, '', 0, 0, 1, '2022-01-24 23:33:56', NULL);
+INSERT INTO `tb_article` VALUES (54, 1, 187, 'http://zougn.oss-cn-shanghai.aliyuncs.com/photos/3dffb2fcbd541886616ab54c92570de3.jpg', '测试文章', '恭喜你成功运行博客，开启你的文章之旅吧。', 1, '', 0, 0, 1, '2022-01-24 23:33:56', NULL);
 
 -- ----------------------------
 -- Table structure for tb_article_tag
@@ -150,7 +150,7 @@ CREATE TABLE `tb_friend_link`  (
 -- ----------------------------
 -- Records of tb_friend_link
 -- ----------------------------
-INSERT INTO `tb_friend_link` VALUES (26, '风丶宇的个人博客', 'https://static.talkxj.com/photos/b553f564f81a80dc338695acb1b475d2.jpg', 'https://www.talkxj.com', '往事不随风', '2022-01-18 00:26:46', NULL);
+INSERT INTO `tb_friend_link` VALUES (26, 'zougn的个人博客', 'http://zougn.oss-cn-shanghai.aliyuncs.com/config/8560d72a4dda4339342d522a00a5fc9e.jpg', 'https://blog.zougn.com', '墨妍尘殇', '2022-02-18 00:26:46', NULL);
 
 -- ----------------------------
 -- Table structure for tb_menu
@@ -228,7 +228,7 @@ CREATE TABLE `tb_message`  (
 -- ----------------------------
 -- Records of tb_message
 -- ----------------------------
-INSERT INTO `tb_message` VALUES (3938, '管理员', 'https://static.talkxj.com/avatar/user.png', '测试留言', '127.0.0.1', '', 9, 1, '2022-01-24 23:34:41', NULL);
+INSERT INTO `tb_message` VALUES (3938, '管理员', 'http://zougn.oss-cn-shanghai.aliyuncs.com/articles/43a07ac1ca201143f7b938d0791124fc.png', '测试留言', '127.0.0.1', '', 9, 1, '2022-01-24 23:34:41', NULL);
 
 -- ----------------------------
 -- Table structure for tb_operation_log
@@ -256,7 +256,7 @@ CREATE TABLE `tb_operation_log`  (
 -- ----------------------------
 -- Records of tb_operation_log
 -- ----------------------------
-INSERT INTO `tb_operation_log` VALUES (1083, '文章模块', '新增或修改', '/admin/articles', 'com.minzheng.blog.controller.ArticleController.saveOrUpdateArticle', '添加或修改文章', '[{\"articleContent\":\"恭喜你成功运行博客，开启你的文章之旅吧。\",\"articleCover\":\"https://static.talkxj.com/articles/3dffb2fcbd541886616ab54c92570de3.jpg\",\"articleTitle\":\"测试文章\",\"categoryName\":\"测试分类\",\"isTop\":0,\"originalUrl\":\"\",\"status\":1,\"tagNameList\":[\"测试标签\"],\"type\":1}]', 'POST', '{\"code\":20000,\"flag\":true,\"message\":\"操作成功\"}', 1, '管理员', '127.0.0.1', '', '2022-01-24 23:33:57', NULL);
+INSERT INTO `tb_operation_log` VALUES (1083, '文章模块', '新增或修改', '/admin/articles', 'com.minzheng.blog.controller.ArticleController.saveOrUpdateArticle', '添加或修改文章', '[{\"articleContent\":\"恭喜你成功运行博客，开启你的文章之旅吧。\",\"articleCover\":\"http://zougn.oss-cn-shanghai.aliyuncs.com/photos/3dffb2fcbd541886616ab54c92570de3.jpg\",\"articleTitle\":\"测试文章\",\"categoryName\":\"测试分类\",\"isTop\":0,\"originalUrl\":\"\",\"status\":1,\"tagNameList\":[\"测试标签\"],\"type\":1}]', 'POST', '{\"code\":20000,\"flag\":true,\"message\":\"操作成功\"}', 1, '管理员', '127.0.0.1', '', '2022-01-24 23:33:57', NULL);
 
 -- ----------------------------
 -- Table structure for tb_page
@@ -275,17 +275,17 @@ CREATE TABLE `tb_page`  (
 -- ----------------------------
 -- Records of tb_page
 -- ----------------------------
-INSERT INTO `tb_page` VALUES (1, '首页', 'home', 'https://static.talkxj.com/config/0bee7ba5ac70155766648e14ae2a821f.jpg', '2021-08-07 10:32:36', '2021-12-27 12:19:01');
-INSERT INTO `tb_page` VALUES (2, '归档', 'archive', 'https://static.talkxj.com/config/643f28683e1c59a80ccfc9cb19735a9c.jpg', '2021-08-07 10:32:36', '2021-10-04 15:43:14');
-INSERT INTO `tb_page` VALUES (3, '分类', 'category', 'https://static.talkxj.com/config/83be0017d7f1a29441e33083e7706936.jpg', '2021-08-07 10:32:36', '2021-10-04 15:43:31');
-INSERT INTO `tb_page` VALUES (4, '标签', 'tag', 'https://static.talkxj.com/config/a6f141372509365891081d755da963a1.png', '2021-08-07 10:32:36', '2021-10-04 15:43:38');
-INSERT INTO `tb_page` VALUES (5, '相册', 'album', 'https://static.talkxj.com/config/1ecb6fc94e38c38713000efe37492e73.png', '2021-08-07 10:32:36', '2021-12-27 12:23:12');
-INSERT INTO `tb_page` VALUES (6, '友链', 'link', 'https://static.talkxj.com/config/9034edddec5b8e8542c2e61b0da1c1da.jpg', '2021-08-07 10:32:36', '2021-10-04 15:44:02');
-INSERT INTO `tb_page` VALUES (7, '关于', 'about', 'https://static.talkxj.com/config/2a56d15dd742ff8ac238a512d9a472a1.jpg', '2021-08-07 10:32:36', '2021-10-04 15:44:08');
-INSERT INTO `tb_page` VALUES (8, '留言', 'message', 'https://static.talkxj.com/config/acfeab8379508233fa7e4febf90c2f2e.png', '2021-08-07 10:32:36', '2021-10-04 16:11:45');
-INSERT INTO `tb_page` VALUES (9, '个人中心', 'user', 'https://static.talkxj.com/config/ebae4c93de1b286a8d50aa62612caa59.jpeg', '2021-08-07 10:32:36', '2021-10-04 15:45:17');
-INSERT INTO `tb_page` VALUES (10, '文章列表', 'articleList', 'https://static.talkxj.com/config/924d65cc8312e6cdad2160eb8fce6831.jpg', '2021-08-10 15:36:19', '2021-10-04 15:45:45');
-INSERT INTO `tb_page` VALUES (904, '说说', 'talk', 'https://static.talkxj.com/config/a741b0656a9a3db2e2ba5c2f4140eb6c.jpg', '2022-01-23 00:51:24', '2022-01-23 03:01:21');
+INSERT INTO `tb_page` VALUES (1, '首页', 'home', 'http://zougn.oss-cn-shanghai.aliyuncs.com/photos/b8ddbbdbf863c4e07d79b491f9434e8f.jpg', '2021-08-07 10:32:36', '2021-12-27 12:19:01');
+INSERT INTO `tb_page` VALUES (2, '归档', 'archive', 'http://zougn.oss-cn-shanghai.aliyuncs.com/photos/e9dcd8a654ea63351e0abccb7b5dfd20.jpg', '2021-08-07 10:32:36', '2021-10-04 15:43:14');
+INSERT INTO `tb_page` VALUES (3, '分类', 'category', 'http://zougn.oss-cn-shanghai.aliyuncs.com/photos/560fcce801903349d7b53df8b332767d.jpg', '2021-08-07 10:32:36', '2021-10-04 15:43:31');
+INSERT INTO `tb_page` VALUES (4, '标签', 'tag', 'http://zougn.oss-cn-shanghai.aliyuncs.com/photos/b8ddbbdbf863c4e07d79b491f9434e8f.jpg', '2021-08-07 10:32:36', '2021-10-04 15:43:38');
+INSERT INTO `tb_page` VALUES (5, '相册', 'album', 'https://zougn.oss-cn-shanghai.aliyuncs.com/photos/a2dd553084b99928ba7b8743ee61bb61.jpg', '2021-08-07 10:32:36', '2021-12-27 12:23:12');
+INSERT INTO `tb_page` VALUES (6, '友链', 'link', 'https://zougn.oss-cn-shanghai.aliyuncs.com/photos/f25ff46471949b28b5d4a4abf2c48f77.jpg', '2021-08-07 10:32:36', '2021-10-04 15:44:02');
+INSERT INTO `tb_page` VALUES (7, '关于', 'about', '	https://zougn.oss-cn-shanghai.aliyuncs.com/photos/6d3bec563b5db57ccb9d58132f4b92dd.jpg', '2021-08-07 10:32:36', '2021-10-04 15:44:08');
+INSERT INTO `tb_page` VALUES (8, '留言', 'message', '	https://zougn.oss-cn-shanghai.aliyuncs.com/articles/771941739cbc70fbe40e10cf441e02e5.jpg', '2021-08-07 10:32:36', '2021-10-04 16:11:45');
+INSERT INTO `tb_page` VALUES (9, '个人中心', 'user', '	https://zougn.oss-cn-shanghai.aliyuncs.com/articles/af33b2031872bdba8427c49142d81bd7.jpg', '2021-08-07 10:32:36', '2021-10-04 15:45:17');
+INSERT INTO `tb_page` VALUES (10, '文章列表', 'articleList', '	https://zougn.oss-cn-shanghai.aliyuncs.com/articles/a31d598cf1676b21787639326084d918.jpg', '2021-08-10 15:36:19', '2021-10-04 15:45:45');
+INSERT INTO `tb_page` VALUES (904, '说说', 'talk', 'https://zougn.oss-cn-shanghai.aliyuncs.com/articles/db33914d490eb15b81e6ff4cfacaea84.jpg', '2022-01-23 00:51:24', '2022-01-23 03:01:21');
 
 -- ----------------------------
 -- Table structure for tb_photo
@@ -812,7 +812,7 @@ CREATE TABLE `tb_talk`  (
 -- ----------------------------
 -- Records of tb_talk
 -- ----------------------------
-INSERT INTO `tb_talk` VALUES (49, 1, '测试说说<img src=\"https://static.talkxj.com/emoji/goutou.jpg\" width=\"24\" height=\"24\" alt=\"[狗头]\" style=\"margin: 0 1px;vertical-align: text-bottom\">', NULL, 0, 1, '2022-01-24 23:34:59', NULL);
+INSERT INTO `tb_talk` VALUES (49, 1, '测试说说', NULL, 0, 1, '2022-01-24 23:34:59', NULL);
 
 -- ----------------------------
 -- Table structure for tb_unique_view
@@ -875,8 +875,8 @@ CREATE TABLE `tb_user_info`  (
 -- ----------------------------
 -- Records of tb_user_info
 -- ----------------------------
-INSERT INTO `tb_user_info` VALUES (1, 'admin@qq.com', '管理员', 'https://static.talkxj.com/avatar/user.png', 'admin@qq.com', NULL, 0, '2021-08-12 15:43:17', '2021-08-12 15:51:42');
-INSERT INTO `tb_user_info` VALUES (1005, 'xiaainy@163.com', '用户1486533968342859778', 'https://static.talkxj.com/config/2cd793c8744199053323546875655f32.jpg', NULL, NULL, 0, '2022-01-27 10:58:11', NULL);
+INSERT INTO `tb_user_info` VALUES (1, 'admin@qq.com', '管理员', 'http://zougn.oss-cn-shanghai.aliyuncs.com/articles/43a07ac1ca201143f7b938d0791124fc.png', 'admin@qq.com', NULL, 0, '2021-08-12 15:43:17', '2021-08-12 15:51:42');
+INSERT INTO `tb_user_info` VALUES (1005, 'xiaainy@163.com', '用户1486533968342859778', 'http://zougn.oss-cn-shanghai.aliyuncs.com/articles/43a07ac1ca201143f7b938d0791124fc.png', NULL, NULL, 0, '2022-01-27 10:58:11', NULL);
 
 -- ----------------------------
 -- Table structure for tb_user_role
@@ -910,6 +910,6 @@ CREATE TABLE `tb_website_config`  (
 -- ----------------------------
 -- Records of tb_website_config
 -- ----------------------------
-INSERT INTO `tb_website_config` VALUES (1, '{\"alipayQRCode\":\"https://static.talkxj.com/photos/13d83d77cc1f7e4e0437d7feaf56879f.png\",\"gitee\":\"\",\"github\":\"\",\"isChatRoom\":1,\"isCommentReview\":0,\"isEmailNotice\":1,\"isMessageReview\":0,\"isMusicPlayer\":1,\"isReward\":1,\"qq\":\"\",\"socialLoginList\":[\"qq\",\"weibo\"],\"socialUrlList\":[\"qq\",\"github\",\"gitee\"],\"touristAvatar\":\"https://static.talkxj.com/photos/0bca52afdb2b9998132355d716390c9f.png\",\"userAvatar\":\"https://static.talkxj.com/config/2cd793c8744199053323546875655f32.jpg\",\"websiteAuthor\":\"网站作者\",\"websiteAvatar\":\"https://static.talkxj.com/config/43a07ac1ca201143f7b938d0791124fc.png\",\"websiteCreateTime\":\"2019-12-10\",\"websiteIntro\":\"网站简介\",\"websiteName\":\"个人博客\",\"websiteNotice\":\"请前往后台管理->系统管理->网站管理处修改信息\",\"websiteRecordNo\":\"备案号\",\"websocketUrl\":\"ws://127.0.0.1:8080/websocket\",\"weiXinQRCode\":\"https://static.talkxj.com/photos/4f767ef84e55ab9ad42b2d20e51deca1.png\"}', '2021-08-09 19:37:30', '2022-01-18 00:25:47');
+INSERT INTO `tb_website_config` VALUES (1, '{\"alipayQRCode\":\"https://zougn.oss-cn-shanghai.aliyuncs.com/config/298dc96cd2cb3dfeca68884d8217d485.png\",\"gitee\":\"\",\"github\":\"\",\"isChatRoom\":1,\"isCommentReview\":0,\"isEmailNotice\":1,\"isMessageReview\":0,\"isMusicPlayer\":1,\"isReward\":1,\"qq\":\"\",\"socialLoginList\":[\"qq\",\"weibo\"],\"socialUrlList\":[\"qq\",\"github\",\"gitee\"],\"touristAvatar\":\"	https://zougn.oss-cn-shanghai.aliyuncs.com/config/0bca52afdb2b9998132355d716390c9f.png\",\"userAvatar\":\"https://zougn.oss-cn-shanghai.aliyuncs.com/config/2cd793c8744199053323546875655f32.jpg\",\"websiteAuthor\":\"网站作者\",\"websiteAvatar\":\"https://zougn.oss-cn-shanghai.aliyuncs.com/config/8560d72a4dda4339342d522a00a5fc9e.jpg\",\"websiteCreateTime\":\"2019-12-10\",\"websiteIntro\":\"网站简介\",\"websiteName\":\"个人博客\",\"websiteNotice\":\"请前往后台管理->系统管理->网站管理处修改信息\",\"websiteRecordNo\":\"备案号\",\"websocketUrl\":\"ws://127.0.0.1:8080/websocket\",\"weiXinQRCode\":\"	https://zougn.oss-cn-shanghai.aliyuncs.com/config/6d0ed5822750564897dee7d1e4f8ec5d.png\"}', '2021-08-09 19:37:30', '2022-01-18 00:25:47');
 
 SET FOREIGN_KEY_CHECKS = 1;
