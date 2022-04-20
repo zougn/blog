@@ -1,0 +1,7 @@
+export default {
+  QQ_APP_ID: "QQAPPID",
+  QQ_REDIRECT_URI: "QQ回调地址",
+  WEIBO_APP_ID: "微博APPID",
+  WEIBO_REDIRECT_URI: "微博回调地址",
+  TENCENT_CAPTCHA: "2088053498"
+};
