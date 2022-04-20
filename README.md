@@ -2,9 +2,10 @@
 
 <p align=center>
   <a href="https://blog.zougn.com">
-    <img src="http://zougn.oss-cn-shanghai.aliyuncs.com/articles/4a8ca439f6a4cce8316f9a885c632cee.jpg" alt="zougn的个人博客" style="border-radius: 50%">
+    <img src="http://zougn.oss-cn-shanghai.aliyuncs.com/articles/8823620077c49f866499ce9e231ea504.jpg" alt="zougn的个人博客" style="border-radius: 50%">
   </a>
 </p>
+
 
 <p align=center>
    基于Springboot + Vue 开发的前后端分离博客
