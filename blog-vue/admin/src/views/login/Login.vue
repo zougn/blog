@@ -100,8 +100,7 @@ export default {
   bottom: 0;
   right: 0;
   left: 0;
-  background: url(https://static.talkxj.com/config/0w3pdr.jpg) center center /
-    cover no-repeat;
+  background: url(../../assets/img/0w3pdr.jpg) center center / cover no-repeat;
 }
 .login-card {
   position: absolute;

@@ -130,9 +130,7 @@
           <el-image
             class="article-cover"
             :src="
-              scope.row.articleCover
-                ? scope.row.articleCover
-                : 'https://static.talkxj.com/articles/c5cc2b2561bd0e3060a500198a4ad37d.png'
+              scope.row.articleCover ? scope.row.articleCover : articleCover
             "
           />
           <i
@@ -360,7 +358,8 @@ export default {
       status: null,
       current: 1,
       size: 10,
-      count: 0
+      count: 0,
+      articleCover: require("../../assets/img/articleCover.jpg")
     };
   },
   methods: {
