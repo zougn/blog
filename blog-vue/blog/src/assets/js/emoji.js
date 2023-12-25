@@ -1,115 +1,153 @@
 export default {
-  "[微笑]": "https://static.talkxj.com/emoji/smile.jpg",
+  "[微笑]": require("../img/smile.jpg"),
 
-  "[笑]": " https://static.talkxj.com/emoji/dx.jpg",
+  "[笑]": require("../img/dx.jpg"),
 
-  "[呲牙]": "https://static.talkxj.com/emoji/cy.jpg",
+  "[呲牙]": require("../img/cy.jpg"),
 
-  "[OK]": "https://static.talkxj.com/emoji/ok.jpg",
+  "[歪嘴]": require("../img/waizui.jpg"),
 
-  "[星星眼]": "https://static.talkxj.com/emoji/xxy.jpg",
+  "[OK]": require("../img/ok.jpg"),
 
-  "[哦呼]": "https://static.talkxj.com/emoji/oh.jpg",
+  "[星星眼]": require("../img/xxy.jpg"),
 
-  "[嫌弃]": "https://static.talkxj.com/emoji/xq.jpg",
+  "[哦呼]": require("../img/oh.jpg"),
 
-  "[喜欢]": "https://static.talkxj.com/emoji/xh.jpg",
+  "[嫌弃]": require("../img/xq.jpg"),
 
-  "[酸了]": "https://static.talkxj.com/emoji/sl.jpg",
+  "[喜欢]": require("../img/xh.jpg"),
 
-  "[大哭]": "https://static.talkxj.com/emoji/dq.jpg?",
+  "[酸了]": require("../img/sl.jpg"),
 
-  "[害羞]": "https://static.talkxj.com/emoji/hx.jpg",
+  "[大哭]": require("../img/dq.jpg?"),
 
-  "[无语]": "https://static.talkxj.com/emoji/wy.jpg",
+  "[害羞]": require("../img/hx.jpg"),
 
-  "[疑惑]": "https://static.talkxj.com/emoji/yh.jpg",
+  "[无语]": require("../img/wy.jpg"),
 
-  "[调皮]": "https://static.talkxj.com/emoji/tiaopi.jpg",
+  "[疑惑]": require("../img/yh.jpg"),
 
-  "[笑哭]": "https://static.talkxj.com/emoji/xiaoku.jpg",
+  "[调皮]": require("../img/tiaopi.jpg"),
 
-  "[奸笑]": "https://static.talkxj.com/emoji/jianxiao.jpg",
+  "[笑哭]": require("../img/xiaoku.jpg"),
 
-  "[偷笑]": "https://static.talkxj.com/emoji/touxiao.jpg",
+  "[奸笑]": require("../img/jianxiao.jpg"),
 
-  "[大笑]": "https://static.talkxj.com/emoji/daxiao.jpg",
+  "[偷笑]": require("../img/touxiao.jpg"),
 
-  "[阴险]": "https://static.talkxj.com/emoji/yinxian.jpg",
+  "[大笑]": require("../img/daxiao.jpg"),
 
-  "[捂脸]": "https://static.talkxj.com/emoji/wulian.jpg",
+  "[阴险]": require("../img/yinxian.jpg"),
 
-  "[呆]": "https://static.talkxj.com/emoji/dai.jpg",
+  "[捂脸]": require("../img/wulian.jpg"),
 
-  "[抠鼻]": "https://static.talkxj.com/emoji/koubi.jpg",
+  "[呆]": require("../img/dai.jpg"),
 
-  "[惊喜]": "https://static.talkxj.com/emoji/jingxi.jpg",
+  "[抠鼻]": require("../img/koubi.jpg"),
 
-  "[惊讶]": "https://static.talkxj.com/emoji/jingya.jpg",
+  "[惊喜]": require("../img/jingxi.jpg"),
 
-  "[捂脸哭]": "https://static.talkxj.com/emoji/wulianku.jpg",
+  "[惊讶]": require("../img/jingya.jpg"),
 
-  "[妙啊]": "https://static.talkxj.com/emoji/miaoa.jpg",
+  "[捂脸哭]": require("../img/wulianku.jpg"),
 
-  "[狗头]": "https://static.talkxj.com/emoji/goutou.jpg",
+  "[妙啊]": require("../img/miaoa.jpg"),
 
-  "[滑稽]": "https://static.talkxj.com/emoji/huaji.jpg",
+  "[狗头]": require("../img/goutou.jpg"),
 
-  "[吃瓜]": "https://static.talkxj.com/emoji/chigua.jpg",
+  "[滑稽]": require("../img/huaji.jpg"),
 
-  "[打call]": "https://static.talkxj.com/emoji/dacall.jpg",
+  "[吃瓜]": require("../img/chigua.jpg"),
 
-  "[点赞]": "https://static.talkxj.com/emoji/dianzan.jpg",
+  "[打call]": require("../img/dacall.jpg"),
 
-  "[鼓掌]": "https://static.talkxj.com/emoji/guzhang.jpg",
+  "[点赞]": require("../img/dianzan.jpg"),
 
-  "[尴尬]": "https://static.talkxj.com/emoji/ganga.jpg",
+  "[鼓掌]": require("../img/guzhang.jpg"),
 
-  "[冷]": "https://static.talkxj.com/emoji/leng.jpg",
+  "[尴尬]": require("../img/ganga.jpg"),
 
-  "[灵魂出窍]": "https://static.talkxj.com/emoji/linghunchuqiao.jpg",
+  "[冷]": require("../img/leng.jpg"),
 
-  "[委屈]": "https://static.talkxj.com/emoji/weiqu.jpg",
+  "[灵魂出窍]": require("../img/linghunchuqiao.jpg"),
 
-  "[傲娇]": "https://static.talkxj.com/emoji/aojiao.jpg",
+  "[委屈]": require("../img/weiqu.jpg"),
 
-  "[疼]": "https://static.talkxj.com/emoji/teng.jpg",
+  "[傲娇]": require("../img/aojiao.jpg"),
 
-  "[吓]": "https://static.talkxj.com/emoji/xia.jpg?",
+  "[疼]": require("../img/teng.jpg"),
 
-  "[生病]": "https://static.talkxj.com/emoji/shengbing.jpg",
+  "[奋斗]": require("../img/fendou.jpg"),
 
-  "[吐]": "https://static.talkxj.com/emoji/tu.jpg",
+  "[锦鲤]": require("../img/jingli.jpg"),
 
-  "[嘘声]": "https://static.talkxj.com/emoji/xusheng.jpg",
+  "[抱拳]": require("../img/baoquan.jpg"),
 
-  "[捂眼]": "https://static.talkxj.com/emoji/wuyan.jpg",
+  "[响指]": require("../img/xiangzhi.jpg"),
 
-  "[思考]": "https://static.talkxj.com/emoji/sikao.jpg",
+  "[黑洞]": require("../img/heidong.jpg"),
 
-  "[再见]": "https://static.talkxj.com/emoji/zaijian.jpg",
+  "[福到了]": require("../img/fudaole.jpg"),
 
-  "[翻白眼]": "https://static.talkxj.com/emoji/fanbaiyan.jpg",
+  "[高兴]": require("../img/gaoxing.jpg"),
 
-  "[哈欠]": "https://static.talkxj.com/emoji/haqian.jpg",
+  "[气愤]": require("../img/qifeng.jpg"),
 
-  "[奋斗]": "https://static.talkxj.com/emoji/fengdou.jpg",
+  "[耍帅]": require("../img/shuashuai.jpg"),
 
-  "[墨镜]": "https://static.talkxj.com/emoji/mojing.jpg",
+  "[吓]": require("../img/xia.jpg"),
 
-  "[撇嘴]": "https://static.talkxj.com/emoji/piezui.jpg",
+  "[生病]": require("../img/shengbing.jpg"),
 
-  "[难过]": "https://static.talkxj.com/emoji/nanguo.jpg",
+  "[吐]": require("../img/tu.jpg"),
 
-  "[抓狂]": "https://static.talkxj.com/emoji/zhuakuang.jpg",
+  "[嘘声]": require("../img/xusheng.jpg"),
 
-  "[生气]": "https://static.talkxj.com/emoji/shengqi.jpg",
+  "[捂眼]": require("../img/wuyan.jpg"),
 
-  "[爱心]": "https://static.talkxj.com/emoji/aixin.jpg",
+  "[思考]": require("../img/sikao.jpg"),
 
-  "[胜利]": "https://static.talkxj.com/emoji/shengli.jpg",
+  "[再见]": require("../img/zaijian.jpg"),
 
-  "[保佑]": "https://static.talkxj.com/emoji/baoyou.jpg",
+  "[翻白眼]": require("../img/fanbaiyan.jpg"),
 
-  "[支持]": "https://static.talkxj.com/emoji/zhichi.jpg"
+  "[哈欠]": require("../img/haqian.jpg"),
+
+  "[墨镜]": require("../img/mojing.jpg"),
+
+  "[撇嘴]": require("../img/piezui.jpg"),
+
+  "[难过]": require("../img/nanguo.jpg"),
+
+  "[抓狂]": require("../img/zhuakuang.jpg"),
+
+  "[生气]": require("../img/shengqi.jpg"),
+
+  "[口罩]": require("../img/kouzhao.jpg"),
+
+  "[月饼]": require("../img/yuebing.jpg"),
+
+  "[卫星]": require("../img/weixing.jpg"),
+
+  "[鸡腿]": require("../img/jitui.jpg"),
+
+  "[干杯]": require("../img/ganbei.jpg"),
+
+  "[爱心]": require("../img/aixin.jpg"),
+
+  "[胜利]": require("../img/shengli.jpg"),
+
+  "[加油]": require("../img/jiayou.jpg"),
+
+  "[保佑]": require("../img/baoyou.jpg"),
+
+  "[支持]": require("../img/zhichi.jpg"),
+
+  "[拥抱]": require("../img/yongbao.jpg"),
+
+  "[怪我咯]": require("../img/guaiwoluo.jpg"),
+
+  "[跪了]": require("../img/guile.jpg"),
+
+  "[老鼠]": require("../img/laoshu.jpg")
 };

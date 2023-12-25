@@ -9,11 +9,7 @@
     >
       <!-- 标题 -->
       <div class="header">
-        <img
-          width="32"
-          height="32"
-          src="https://static.talkxj.com/config/logo.png"
-        />
+        <img width="32" height="32" src="../assets/img/chatRoom.png" />
         <div style="margin-left:12px">
           <div>聊天室</div>
           <div style="font-size:12px">当前{{ count }}人在线</div>
@@ -143,11 +139,7 @@
     <!-- 未读数量 -->
     <div class="chat-btn" @click="open">
       <span class="unread" v-if="unreadCount > 0">{{ unreadCount }}</span>
-      <img
-        width="100%"
-        height="100%"
-        src="https://static.talkxj.com/config/logo.png"
-      />
+      <img width="100%" height="100%" src="../assets/img/chatRoom.png" />
     </div>
   </div>
 </template>

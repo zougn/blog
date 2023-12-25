@@ -19,6 +19,7 @@
 </template>
 
 <script>
+// import smile from "../assets/img/smile.jpg";
 import EmojiList from "../assets/js/emoji";
 export default {
   props: {
