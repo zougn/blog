@@ -10,7 +10,7 @@
         <relativePath/>
     </parent>
 
-    <groupId>com.minzheng</groupId>
+    <groupId>com.zougn</groupId>
     <artifactId>blog-springboot</artifactId>
     <version>0.0.2</version>
     <name>blog</name>
@@ -107,6 +107,10 @@
             <groupId>eu.bitwalker</groupId>
             <artifactId>UserAgentUtils</artifactId>
             <version>1.20</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
         </dependency>
     </dependencies>
 

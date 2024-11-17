@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.minzheng.blog.dao.CommentDao">
+<mapper namespace="com.zougn.blog.dao.CommentDao">
 
-    <select id="listComments" resultType="com.minzheng.blog.dto.CommentDTO">
+    <select id="listComments" resultType="com.zougn.blog.dto.CommentDTO">
         SELECT
         u.nickname,
         u.avatar,
@@ -27,7 +27,7 @@
         LIMIT #{current},#{size}
     </select>
 
-    <select id="listReplies" resultType="com.minzheng.blog.dto.ReplyDTO">
+    <select id="listReplies" resultType="com.zougn.blog.dto.ReplyDTO">
         SELECT
         *
         FROM
@@ -63,7 +63,7 @@
         4 > row_num
     </select>
 
-    <select id="listReplyCountByCommentId" resultType="com.minzheng.blog.dto.ReplyCountDTO">
+    <select id="listReplyCountByCommentId" resultType="com.zougn.blog.dto.ReplyCountDTO">
         SELECT
         parent_id as comment_id,
         count(1) AS reply_count
@@ -80,7 +80,7 @@
         parent_id
     </select>
 
-    <select id="listRepliesByCommentId" resultType="com.minzheng.blog.dto.ReplyDTO">
+    <select id="listRepliesByCommentId" resultType="com.zougn.blog.dto.ReplyDTO">
         SELECT
         c.user_id,
         u.nickname,
@@ -106,7 +106,7 @@
         LIMIT #{current}, #{size}
     </select>
 
-    <select id="listCommentBackDTO" resultType="com.minzheng.blog.dto.CommentBackDTO">
+    <select id="listCommentBackDTO" resultType="com.zougn.blog.dto.CommentBackDTO">
         SELECT
          c.id,
          u.avatar,
@@ -157,7 +157,7 @@
         </where>
     </select>
 
-    <select id="listCommentCountByTopicIds" resultType="com.minzheng.blog.dto.CommentCountDTO">
+    <select id="listCommentCountByTopicIds" resultType="com.zougn.blog.dto.CommentCountDTO">
         SELECT
           topic_id as id,
           COUNT( 1 ) AS comment_count

@@ -2,9 +2,9 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.minzheng.blog.dao.PageDao">
+<mapper namespace="com.zougn.blog.dao.PageDao">
 
-    <resultMap id="BaseResultMap" type="com.minzheng.blog.entity.Page">
+    <resultMap id="BaseResultMap" type="com.zougn.blog.entity.Page">
             <id property="id" column="id" jdbcType="INTEGER"/>
             <result property="pageName" column="page_name" jdbcType="VARCHAR"/>
             <result property="pageLabel" column="page_label" jdbcType="VARCHAR"/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.minzheng.blog.dao.MenuDao">
+<mapper namespace="com.zougn.blog.dao.MenuDao">
 
 
-    <select id="listMenusByUserInfoId" resultType="com.minzheng.blog.entity.Menu">
+    <select id="listMenusByUserInfoId" resultType="com.zougn.blog.entity.Menu">
         SELECT DISTINCT
             m.id,
             `name`,

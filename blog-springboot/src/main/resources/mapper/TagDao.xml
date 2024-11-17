@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.minzheng.blog.dao.TagDao">
+<mapper namespace="com.zougn.blog.dao.TagDao">
 
-    <select id="listTagBackDTO" resultType="com.minzheng.blog.dto.TagBackDTO">
+    <select id="listTagBackDTO" resultType="com.zougn.blog.dto.TagBackDTO">
         SELECT
           t.id,
           tag_name,

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.minzheng.blog.dao.UserAuthDao">
+<mapper namespace="com.zougn.blog.dao.UserAuthDao">
 
-    <resultMap id="UserBackMap" type="com.minzheng.blog.dto.UserBackDTO">
+    <resultMap id="UserBackMap" type="com.zougn.blog.dto.UserBackDTO">
         <id column="id" property="id"/>
         <result column="user_info_id" property="userInfoId"/>
         <result column="avatar" property="avatar"/>
@@ -13,7 +13,7 @@
         <result column="create_time" property="createTime"/>
         <result column="last_login_time" property="lastLoginTime"/>
         <result column="is_disable" property="isDisable"/>
-        <collection property="roleList" ofType="com.minzheng.blog.dto.UserRoleDTO">
+        <collection property="roleList" ofType="com.zougn.blog.dto.UserRoleDTO">
             <id column="role_id" property="id"/>
             <id column="role_name" property="roleName"/>
         </collection>
